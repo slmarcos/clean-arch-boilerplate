@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules
+
+# Build directories
+dist
+
+# Personal configuration files
+.npmrc
+
+# Jest MongoDB files
+globalConfig.json
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
