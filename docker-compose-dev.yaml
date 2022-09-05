@@ -11,9 +11,11 @@ services:
       - 9229:9229
     restart: on-failure
     environment:
+      - SERVICE_NAME=${PROJECT_NAME}
+
       - NODE_ENV=development
       - PORT=3018
-      - DB_HOST
+      - DB_HOST=
 
       - NEW_RELIC_ENABLED=false
       - NEW_RELIC_APP_NAME=${PROJECT_NAME}-development
